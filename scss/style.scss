@@ -344,6 +344,9 @@ html,body {
             left: 10px;
             position: absolute;
             font-family: sf-ui-display-light;
+            @media(max-width: 600px) {
+                font-size: 12px;
+            }
            
         }
     }

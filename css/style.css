@@ -471,6 +471,11 @@ html, body {
   position: absolute;
   font-family: sf-ui-display-light;
 }
+@media (max-width: 600px) {
+  .register .register_input::placeholder {
+    font-size: 12px;
+  }
+}
 
 a {
   text-decoration: none;
