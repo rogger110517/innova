@@ -1,0 +1,37 @@
+.gratitude {
+    background: url('../img/fondo-gratitude.jpg');
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    text-align: center;
+    .gratitude_paragraph {
+        font-size: 20px;
+        color: #ffffff;
+        padding-top: 30px;
+        font-family: sf-ui-display-light;
+        @media(max-width: 600px) {
+            font-size: 14px;
+        }
+    }
+    .gratitude_paragraph.meeting {
+        padding-top: 0px;
+    }
+    .gratitude_button_content {
+        margin: 30px 0px 80px;
+        .gratitude_button_content_item {
+            padding: 10px 50px;
+            background: #48A700;
+            color: #ffffff;
+            font-size: 16px;
+            font-family: sf-ui-display-bold;
+            @media(max-width: 600px) {
+                font-size: 13px;
+            }
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+}
