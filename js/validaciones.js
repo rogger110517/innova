@@ -81,5 +81,5 @@ function mostrarError(mensaje) {
 }
 function enviarEmail(e) {
     e.preventDefault();
-    window.location.href ='/proyecto-entrevista/innova-agradecimiento.html';
+    window.location.href ='/innova/proyecto-agradecimiento.html';
 }
