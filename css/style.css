@@ -332,11 +332,6 @@ html, body {
   height: 65px;
   width: auto;
   display: flex;
-  transition: all ease 0.3s;
-}
-.hero_v .hero_online .hero_online_img:hover {
-  transition: all ease 0.3s;
-  transform: scale(1.2);
 }
 @media (max-width: 600px) {
   .hero_v .hero_online .hero_online_img {
@@ -382,6 +377,15 @@ html, body {
 @media (max-width: 1339px) {
   .register {
     height: auto;
+  }
+}
+.register .send-error {
+  color: red;
+  font-family: sf-ui-display-bold;
+}
+@media (max-width: 600px) {
+  .register .send-error {
+    font-size: 13px;
   }
 }
 .register .register_content {
@@ -459,6 +463,12 @@ html, body {
 }
 .register .register_input_content.button_input {
   border: 1px solid #FF7D24;
+}
+.register .register_input.placeholder-active {
+  border: 1px solid red;
+}
+.register .register_input.placeholder-active::placeholder {
+  color: red;
 }
 .register .register_input {
   border: 0;
@@ -543,6 +553,11 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.register_input_button.restingir {
+  opacity: 0.5;
+  cursor: no-drop;
 }
 
 /*# sourceMappingURL=style.css.map */
