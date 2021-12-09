@@ -91,6 +91,14 @@
 
 img {
   width: 100%;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: 1.5s ease-in-out all;
+}
+
+img.visible {
+  transform: scale(1);
+  opacity: 1;
 }
 
 .overflow-hidden {
@@ -318,6 +326,7 @@ html, body {
 .hero_v .hero_online .hero_online_paragraph {
   color: #ffffff;
   padding: 3px 10px 3px;
+  font-family: sf-ui-display-light;
 }
 .hero_v .hero_online .hero_online_img {
   height: 65px;
